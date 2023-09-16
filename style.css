@@ -1,0 +1,65 @@
+html {
+  background-image: url("image/Tablet.jpg");
+}
+
+.page {
+  background-color: darkgoldenrod;
+  border-radius: 3rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  opacity: 1;
+}
+
+.banner {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.blazeCannon {
+  display: block;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  
+}
+
+.ancientText {
+  color: brown;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Permanent Marker', cursive;
+}
+
+p::first-letter {
+  font-size: 1.4rem;
+}
+
+.thyName {
+  font-size: 1.2rem;
+}
+
+.thyName::first-letter {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 600px) {
+  .ancientText {
+    font-size: 1.2rem;
+  }
+
+  p::first-letter {
+    font-size: 1.6rem;
+  }
+
+  .thyName {
+    font-size: 1.6rem;
+  }
+  
+  .thyName::first-letter {
+    font-size: 1.8rem;
+  }
+}
