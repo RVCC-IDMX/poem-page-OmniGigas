@@ -1,1 +1,1 @@
-# template
+# Simple Web Site
